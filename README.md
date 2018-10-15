@@ -25,11 +25,7 @@ types to the program that guarantee the properties we care about.
 
 ### Topics
 
-- Agda basics
-  * dependent types
-  * pattern matching
-  * parametrized modules
-  * standard library
+- Agda basics (dependent types, pattern matching, parametrized modules, standard library)
 - Representing intrinsically typed syntax in Agda
 - Monads and do-notation
 - Instance arguments and type classes
