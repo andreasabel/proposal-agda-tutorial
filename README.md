@@ -16,12 +16,13 @@ The objective of this tutorial is to learn how to implement a
 correct-by-construction typechecker and interpreter in the dependently
 typed programming language Agda. In the process, we will touch upon
 several modern features of the Agda language, such as do-notation,
-copattern matching, sized types, and the Haskell FFI.
+copattern matching, instance arguments, sized types, and the Haskell
+FFI.
 
-The goal of this tutorial is *practical programming* using dependent
-types, so we will avoid proving things whenever possible. Instead, we
-will use indexed datatypes and dependent pattern matching to assign
-more informative types to the program.
+In this tutorial we focus on practical programming using dependent
+types, so we avoid proving things whenever possible. Instead, we
+use indexed datatypes and dependent pattern matching to assign more
+informative types to the program.
 
 ### Topics
 
@@ -32,6 +33,7 @@ more informative types to the program.
   * standard library
 - Representing intrinsically typed syntax in Agda
 - Monads and do-notation
+- Instance arguments and type classes
 - Copatterns
 - Coinduction using sized types
 - Foreign function interface to Haskell
@@ -42,6 +44,7 @@ Lecture and exercises.
 
 ### Target audience
 
+- PhD students
 - Researchers
 - Teachers
 - Professionals
@@ -50,7 +53,7 @@ Lecture and exercises.
 
 - Excellent knowledge of strongly-typed functional programming
   (e.g. Haskell, ML, OCaml, Scala, ...)
-- Some familiarity with GADTs
+- Some familiarity with GADTs is recommended
 
 ### Location, date, number of attendees
 
@@ -63,16 +66,16 @@ other languages. At the same time, dependent types enable new forms of
 *interactive programming*, by letting the types guide the construction
 of the program. Dependently typed languages have existed for many
 years, but only recently have they become usable for practical
-programming. Now *you* can learn how to get the most out of dependent
-types.
+programming.
 
 In this tutorial, you will learn how to write correct-by-construction
 programs in the dependently typed programming language
-Agda. Concretely, we will implement a verified typechecker and
-interpreter for a small C-like imperative language. We will explore
-several modern features of the Agda language that make this task more
-pleasant, such as dependent pattern matching, monads and do-notation,
-coinduction and copattern matching, and sized types. 
+Agda. Concretely, we will together implement a verified typechecker
+and interpreter for a small C-like imperative language. Along the way,
+We will explore several modern features of the Agda language that make
+this task more pleasant, such as dependent pattern matching, monads
+and do-notation, coinduction and copattern matching, instance
+arguments, sized types, and the Haskell FFI.
 
 ## Biography
 (1 paragraph)
