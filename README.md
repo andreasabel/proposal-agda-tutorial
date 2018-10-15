@@ -8,7 +8,6 @@ Proposal for an Agda tutorial at POPL 2019
 - Jesper Cockx, Gothenburg University, jesper.cockx@gu.se
 
 ## Description
-(1-3 pages)
 
 ### Objectives
 
@@ -68,7 +67,6 @@ filled with assistence by the Agda interactive programming system.
 This tutorial will be held at POPL 2019 for the first time (if accepted).
 
 ## Publicity abstract
-(1-2 paragraph)
 
 In a dependently typed programming language, you can get much stronger
 static guarantees about the correctness of your program than in most
@@ -88,7 +86,6 @@ and do-notation, coinduction and copattern matching, instance
 arguments, sized types, and the Haskell FFI.
 
 ## Biography
-(1 paragraph)
 
 ### Andreas Abel
 
