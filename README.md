@@ -26,7 +26,7 @@ informative types to the program.
 ### Topics
 
 - Agda basics
-  * dependent types 
+  * dependent types
   * pattern matching
   * parametrized modules
   * standard library
@@ -39,14 +39,16 @@ informative types to the program.
 
 ### Presentation approach
 
-The tutorial consists of lectures and supervised exercises.  
+The tutorial consists of lectures and supervised exercises.
 
-In the lecture, we will present the necessary concepts by illustrative 
+In the lecture, we will present the necessary concepts by illustrative
 examples, doing live interactive programming in Agda.
 
-In the exercises, the attendees will be able to practice interactive 
+In the exercises, the attendees will be able to practice interactive
 programming in Agda, given a program stub with holes that can be
-filled with assistence by the Agda interactive programming system.
+filled with some guidance by the Agda interactive programming system.
+There will be teaching assistants roaming around the tutorial room to 
+help the attendees with the programming exercises.
 
 ### Target audience
 
@@ -89,16 +91,15 @@ arguments, sized types, and the Haskell FFI.
 
 ### Andreas Abel
 
-Andreas Abel is a senior lecturer at Gothenburg University and researcher 
-in dependent type theory.  He obtained PhD (2006) and habilitation (2013) 
-from the University of Munich.  He has contributing to the development of Agda 
-since 2004; his contributions include the termination checker, sized types, 
-proof irrelevance, copatterns, and many bug fixes and user experience 
+Andreas Abel is a senior lecturer at Gothenburg University and researcher
+in dependent type theory.  He obtained PhD (2006) and habilitation (2013)
+from the University of Munich.  He has contributing to the development of Agda
+since 2004; his contributions include the termination checker, sized types,
+proof irrelevance, copatterns, and many bug fixes and user experience
 improvements.
- 
+
 ### Jesper Cockx
 
 Jesper is a postdoctoral researcher at the Programming Logic group in
 Göteborg and has been working on the Agda language ever since he got
 his hands on it during his masters in 2013.
-
