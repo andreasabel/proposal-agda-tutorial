@@ -40,7 +40,14 @@ informative types to the program.
 
 ### Presentation approach
 
-Lecture and exercises.
+The tutorial consists of lectures and supervised exercises.  
+
+In the lecture, we will present the necessary concepts by illustrative 
+examples, doing live interactive programming in Agda.
+
+In the exercises, the attendees will be able to practice interactive 
+programming in Agda, given a program stub with holes that can be
+filled with assistence by the Agda interactive programming system.
 
 ### Target audience
 
@@ -53,9 +60,12 @@ Lecture and exercises.
 
 - Excellent knowledge of strongly-typed functional programming
   (e.g. Haskell, ML, OCaml, Scala, ...)
-- Some familiarity with GADTs is recommended
+- Some familiarity with monads and indexed data types (GADTs) is recommended
+- Basic aquaintance with emacs is beneficial
 
-### Location, date, number of attendees
+### Previous iterations
+
+This tutorial will be held at POPL 2019 for the first time (if accepted).
 
 ## Publicity abstract
 (1-2 paragraph)
@@ -82,6 +92,13 @@ arguments, sized types, and the Haskell FFI.
 
 ### Andreas Abel
 
+Andreas Abel is a senior lecturer at Gothenburg University and researcher 
+in dependent type theory.  He obtained PhD (2006) and habilitation (2013) 
+from the University of Munich.  He has contributing to the development of Agda 
+since 2004; his contributions include the termination checker, sized types, 
+proof irrelevance, copatterns, and many bug fixes and user experience 
+improvements.
+ 
 ### Jesper Cockx
 
 Jesper is a postdoctoral researcher at the Programming Logic group in
