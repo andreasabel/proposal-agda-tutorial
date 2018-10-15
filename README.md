@@ -19,9 +19,9 @@ copattern matching, instance arguments, sized types, and the Haskell
 FFI.
 
 In this tutorial we focus on practical programming using dependent
-types, so we avoid proving things whenever possible. Instead, we
-use indexed datatypes and dependent pattern matching to assign more
-informative types to the program.
+types, so we avoid writing separate proofs of programs whenever possible. Instead, we
+use indexed datatypes with strong invariants and dependent pattern matching to assign
+types to the program that guarantee the properties we care about.
 
 ### Topics
 
@@ -70,7 +70,7 @@ This tutorial will be held at POPL 2019 for the first time (if accepted).
 
 ## Publicity abstract
 
-In a dependently typed programming language, you can get much stronger
+In a dependently typed programming language you can get much stronger
 static guarantees about the correctness of your program than in most
 other languages. At the same time, dependent types enable new forms of
 *interactive programming*, by letting the types guide the construction
