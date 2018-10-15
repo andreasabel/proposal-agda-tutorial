@@ -91,7 +91,7 @@ arguments, sized types, and the Haskell FFI.
 
 ### Andreas Abel
 
-Andreas Abel is a senior lecturer at Gothenburg University and researcher
+Andreas is a senior lecturer at Gothenburg University and researcher
 in dependent type theory.  He obtained PhD (2006) and habilitation (2013)
 from the University of Munich.  He has contributing to the development of Agda
 since 2004; his contributions include the termination checker, sized types,
@@ -100,6 +100,8 @@ improvements.
 
 ### Jesper Cockx
 
-Jesper is a postdoctoral researcher at the Programming Logic group in
+Jesper (PhD 2017) is a postdoctoral researcher at the Programming Logic group in
 Göteborg and has been working on the Agda language ever since he got
-his hands on it during his masters in 2013.
+his hands on it during his Master's in 2013.  He contributed the present 
+form of dependent (co)pattern matching compatible with Homotopy Type Theory,
+a propositional universe hierarchy, and many bug fixes.
